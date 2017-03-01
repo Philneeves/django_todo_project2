@@ -1,6 +1,7 @@
 [
 {
     "model": "auth.user",
+    "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$30000$pXxJHSmZ67y2$isjpjwS9bKJ7+wJW0KDIJDFm5yX6PoQ6lE7V4i1LXoc=",
         "last_login": "2017-03-01T10:05:30.373Z",
@@ -18,6 +19,7 @@
 },
 {
     "model": "auth.user",
+    "pk": 2,
     "fields": {
         "password": "pbkdf2_sha256$30000$AEBDG9JpR4yv$rqyV3XoUrxzs0BACX2Un/SFCcgOveVkjLEEzbqS+t7s=",
         "last_login": null,
@@ -35,6 +37,7 @@
 },
 {
     "model": "auth.user",
+    "pk": 3,
     "fields": {
         "password": "pbkdf2_sha256$30000$XL3BUwGPDbRm$m6V4HjqcTEbKASLVg05T30PmaoqUAaDmBJSRLKJd0UI=",
         "last_login": null,
@@ -62,7 +65,9 @@
     "model": "todo.todo",
     "pk": 1,
     "fields": {
-        "user": 1,
+        "user": [
+            "admin"
+        ],
         "title": "Create API",
         "description": "Create a new API",
         "status": "Done",
@@ -73,7 +78,9 @@
     "model": "todo.todo",
     "pk": 2,
     "fields": {
-        "user": 1,
+        "user": [
+            "admin"
+        ],
         "title": "Start Final Project",
         "description": "Get onto final project after course",
         "status": "Todo",
@@ -84,7 +91,9 @@
     "model": "todo.todo",
     "pk": 3,
     "fields": {
-        "user": 1,
+        "user": [
+            "admin"
+        ],
         "title": "Rejig rest framework app",
         "description": "Restart it with a new virtualenv etc",
         "status": "Doing",
@@ -95,7 +104,9 @@
     "model": "todo.todo",
     "pk": 4,
     "fields": {
-        "user": 1,
+        "user": [
+            "admin"
+        ],
         "title": "Deploy We Are Social",
         "description": "Deploy the We Are Social app to Heroku",
         "status": "Done",
@@ -107,8 +118,13 @@
     "pk": 1,
     "fields": {
         "action_time": "2017-03-01T07:58:02.029Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "1",
         "object_repr": "Complete Course",
         "action_flag": 1,
@@ -120,8 +136,13 @@
     "pk": 2,
     "fields": {
         "action_time": "2017-03-01T07:58:33.541Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "2",
         "object_repr": "Start Final Project",
         "action_flag": 1,
@@ -133,8 +154,13 @@
     "pk": 3,
     "fields": {
         "action_time": "2017-03-01T07:59:33.655Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "3",
         "object_repr": "Rejig rest framework app",
         "action_flag": 1,
@@ -146,8 +172,13 @@
     "pk": 4,
     "fields": {
         "action_time": "2017-03-01T07:59:59.500Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "4",
         "object_repr": "Deploy We Are Social",
         "action_flag": 1,
@@ -159,8 +190,13 @@
     "pk": 5,
     "fields": {
         "action_time": "2017-03-01T09:59:12.191Z",
-        "user": 1,
-        "content_type": 3,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "object_id": "2",
         "object_repr": "Philneeves",
         "action_flag": 1,
@@ -172,8 +208,13 @@
     "pk": 6,
     "fields": {
         "action_time": "2017-03-01T09:59:23.825Z",
-        "user": 1,
-        "content_type": 3,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "object_id": "2",
         "object_repr": "Philneeves",
         "action_flag": 2,
@@ -185,8 +226,13 @@
     "pk": 7,
     "fields": {
         "action_time": "2017-03-01T10:05:58.017Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "4",
         "object_repr": "Deploy We Are Social",
         "action_flag": 2,
@@ -198,8 +244,13 @@
     "pk": 8,
     "fields": {
         "action_time": "2017-03-01T10:06:03.721Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "4",
         "object_repr": "Deploy We Are Social",
         "action_flag": 2,
@@ -211,8 +262,13 @@
     "pk": 9,
     "fields": {
         "action_time": "2017-03-01T10:06:12.948Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "3",
         "object_repr": "Rejig rest framework app",
         "action_flag": 2,
@@ -224,8 +280,13 @@
     "pk": 10,
     "fields": {
         "action_time": "2017-03-01T10:06:22.730Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "2",
         "object_repr": "Start Final Project",
         "action_flag": 2,
@@ -237,8 +298,13 @@
     "pk": 11,
     "fields": {
         "action_time": "2017-03-01T10:06:32.316Z",
-        "user": 1,
-        "content_type": 7,
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "todo",
+            "todo"
+        ],
         "object_id": "1",
         "object_repr": "Create API",
         "action_flag": 2,
