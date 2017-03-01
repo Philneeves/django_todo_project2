@@ -8,3 +8,5 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+SITE_URL = 'http://django-todo2.herokuapp.com/'

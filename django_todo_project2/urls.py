@@ -25,6 +25,6 @@ urlpatterns = [
     url(r'^todo/$', TodoView.as_view()),
     url(r'^todo/(?P<pk>[0-9]+)/$', TodoView.as_view()),
     url(r'^accounts/register/$', RegistrationView.as_view()),
-    url(r'^accounts/api-token-auth/$', obtain_jwt_token)
+    url(r'^accounts/api-token-auth/$', obtain_jwt_token),
     url(r'^docs/', include('rest_framework_docs.urls')),
 ]
