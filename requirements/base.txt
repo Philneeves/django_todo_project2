@@ -1,0 +1,6 @@
+Django==1.10.5
+PyJWT==1.4.2
+django-cors-headers==2.0.2
+djangorestframework==3.5.4
+djangorestframework-jwt==1.8.0
+drfdocs==0.0.11
