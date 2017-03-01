@@ -9,4 +9,4 @@ DATABASES = {
     }
 }
 
-SITE_URL = 'http://django-todo2.herokuapp.com/'
+SITE_URL = 'https://git.heroku.com/django-todo2.git'
