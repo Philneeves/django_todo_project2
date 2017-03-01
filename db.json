@@ -1,0 +1,248 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$30000$pXxJHSmZ67y2$isjpjwS9bKJ7+wJW0KDIJDFm5yX6PoQ6lE7V4i1LXoc=",
+        "last_login": "2017-03-01T10:05:30.373Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "p.neeves@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-03-01T07:56:27.089Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$30000$AEBDG9JpR4yv$rqyV3XoUrxzs0BACX2Un/SFCcgOveVkjLEEzbqS+t7s=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Philneeves",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-03-01T09:59:12Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$30000$XL3BUwGPDbRm$m6V4HjqcTEbKASLVg05T30PmaoqUAaDmBJSRLKJd0UI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Philipneeves",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-03-01T10:13:42.972Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dl52zryxsox3ye200gojvy5y0v0a0o45",
+    "fields": {
+        "session_data": "OWIwMzQ4ZGYwNDkwMWFmNDY0M2E0MmVkYzA3ZWQzYmNkN2I5ZDgwMjp7Il9hdXRoX3VzZXJfaGFzaCI6ImZlNmE3NTQxMDExMzU1YjU5ODY0Y2U5MjJmMzVjZTdkNTE4OTkzY2YiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2017-03-15T10:05:30.510Z"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "Create API",
+        "description": "Create a new API",
+        "status": "Done",
+        "updated": "2017-03-01T07:58:02.012Z"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "Start Final Project",
+        "description": "Get onto final project after course",
+        "status": "Todo",
+        "updated": "2017-03-01T07:58:33.505Z"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "title": "Rejig rest framework app",
+        "description": "Restart it with a new virtualenv etc",
+        "status": "Doing",
+        "updated": "2017-03-01T07:59:33.620Z"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "title": "Deploy We Are Social",
+        "description": "Deploy the We Are Social app to Heroku",
+        "status": "Done",
+        "updated": "2017-03-01T07:59:59.471Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2017-03-01T07:58:02.029Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Complete Course",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2017-03-01T07:58:33.541Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Start Final Project",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2017-03-01T07:59:33.655Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Rejig rest framework app",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2017-03-01T07:59:59.500Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Deploy We Are Social",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2017-03-01T09:59:12.191Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "2",
+        "object_repr": "Philneeves",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2017-03-01T09:59:23.825Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "2",
+        "object_repr": "Philneeves",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2017-03-01T10:05:58.017Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Deploy We Are Social",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2017-03-01T10:06:03.721Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Deploy We Are Social",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2017-03-01T10:06:12.948Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Rejig rest framework app",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2017-03-01T10:06:22.730Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Start Final Project",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2017-03-01T10:06:32.316Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Create API",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+}
+]
