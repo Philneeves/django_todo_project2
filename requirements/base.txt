@@ -5,3 +5,4 @@ djangorestframework==3.5.4
 djangorestframework-jwt==1.8.0
 drfdocs==0.0.11
 gunicorn==19.4
+whitenoise==3.2
